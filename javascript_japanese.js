@@ -24,7 +24,7 @@ if (randomNumber > randomNumber2) {
 
 
 } else if (randomNumber < randomNumber2) {
-  document.querySelector("h1").innerHTML = "プレイヤー♯2の勝ち 🚩";
+  document.querySelector("h1").innerHTML = "プレイヤー♯2の勝ち 🚩 ！";
 } else {
   document.querySelector("h1").innerHTML = "引き分け！";
 }
