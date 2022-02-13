@@ -20,11 +20,11 @@ document.querySelector("h2").innerHTML = randomNumber + " " + randomNumber2;
 
 
 if (randomNumber > randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩プレイヤー＃1が勝ちます！";
+  document.querySelector("h1").innerHTML = "🚩プレイヤー♯1の勝ち！";
 
 
 } else if (randomNumber < randomNumber2) {
-  document.querySelector("h1").innerHTML = "プレイヤー＃2が勝ちます！ 🚩";
+  document.querySelector("h1").innerHTML = "プレイヤー♯2の勝ち 🚩";
 } else {
-  document.querySelector("h1").innerHTML = "描く！";
+  document.querySelector("h1").innerHTML = "引き分け！";
 }
